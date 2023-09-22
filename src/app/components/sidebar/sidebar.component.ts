@@ -18,7 +18,7 @@ export class SidebarComponent implements OnInit {
     this.contactDetails = {
       phone: '+91 9880935431',
       email: 'pradeep1yenkuwale@gmail.com; pradeep93official@gmail.com',
-      // behance: 'https://www.behance.net/Abdo-Host',
+      // behance: 'https://www.behance.net/My-Profile',
       github: 'https://github.com/theTechie93',
       stackoverflow: 'https://stackoverflow.com/users/7633739/pradeep-yenkuwale',
       linkedin: 'https://www.linkedin.com/in/pradeep-yenkuwale-a256a6a5/',

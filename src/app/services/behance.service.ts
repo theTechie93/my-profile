@@ -10,7 +10,7 @@ export class BehanceService {
   behance_api_url: string;
 
   constructor(private http: HttpClient) {
-    this.behance_api_url = 'https://www.behance.net/v2/users/Abdo-Host/projects?api_key=XkdIqoC84eTbW55NUWXS3Eudym6rgBQw';
+    this.behance_api_url = 'https://www.behance.net/v2/users/My-Profile/projects?api_key=XkdIqoC84eTbW55NUWXS3Eudym6rgBQw';
   }
 
   getPortfolio() {

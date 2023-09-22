@@ -1,8 +1,8 @@
 # Angular Personal Resume Template
 
-![angular resume and portfolio template](https://www.abdo-host.com/abdo-host-angular.jpg)
+![angular resume and portfolio template](https://www.my-profile.com/my-profile-angular.jpg)
 
-# [Demo Link](https://www.abdo-host.com) 
+# [Demo Link](https://www.my-profile.com) 
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
