@@ -1,0 +1,61 @@
+<div class="main-wrapper">
+
+  <section class="section summary-section">
+    <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+    <div class="summary">
+      <p class="color-blod">
+        Seeking for Senior Software developer position in USA to enhance my knowledge, work experience and
+        update my skills in accordance with the latest technologies and be a part of team that dynamically work
+        towards the growth of organization and individual.
+
+      </p>
+      <p>
+        I have a Masters in computer applications, studied computer applications building and handling project
+        requirments,
+        I am regular in my studies without any gaps, immediatly after, i have started my professional career.
+      </p>
+      <ul>
+        <li>Working as a Senior Software developer with 6.4 years of experience.</li>
+        <li>Believe in adding value to the work and keeping work environment productive and positive, build
+          positive and communicative relationship with peers and client, always up for technical discussion
+          and suggestions.</li>
+        <li>Skilled in client communications, project management, requirements analysis, system design,
+          design document and data flow diagrams for the given requirements and deliverables on given
+          timeline with agile methodology.</li>
+        <li>Technically skilled in NodeJS, Angular 11+, implementation of npm package and publishing
+          same for other application usage, micro-services, angular boiler plates and core python.</li>
+        <li>Hands-on on IBM cloud and AWS services - code build, code artifact, cloudwatch, IAM etc…</li>
+        <li>Flexible in learning technologies/platforms as per the project requirements, always up for
+          dynamic learning.</li>
+        <li>Code review, code deployment and suggestions for coding standards to the team, providing
+          dynamic solutions and building re-usable functionality.</li>
+        <li>Building Rest APIs with crud operations in NodeJs, frontend development with Angular, SQL,
+          MySQL, MongoDB, IBM DB2, IBM cloudant, code, system modularisation.</li>
+        <li>Implemented shell script for auto backup of Database in Linux machine (Cent OS).</li>
+        <li>Batch Script for auto copying of Database Files from Linux to Windows using Task Scheduler
+          and for fetching license details</li>
+        <li> Developed Standalone tool using python as desktop application to fullfil client requirements.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section experiences-section">
+    <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experiences</h2>
+
+    <div class="item" *ngFor="let experience of experiences | orderBy:'desc': 'fromDate.year'">
+      <div class="meta">
+        <div class="upper-row">
+          <h3 class="job-title">{{experience.title}}</h3>
+          <div class="time"> {{experience.fromDate.month}} {{experience.fromDate.year}} - {{experience.toDate}}</div>
+        </div>
+        <div class="company">{{experience.company}}</div>
+      </div>
+      <div class="details">
+        <ul>
+          <li *ngFor="let description of experience.description">{{description}}</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+</div>
